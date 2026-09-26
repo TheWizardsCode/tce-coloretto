@@ -5,7 +5,7 @@
  * Uses the SLL layout JSON as the single source of truth for zone
  * positioning, following the Sushi Go! pattern.
  *
- * @module example-games/coloretto/scenes/ColorettoLayoutAdapter
+ * @module src/scenes/ColorettoLayoutAdapter
  */
 
 import { anchorPoint } from '@ui/screen-layout';

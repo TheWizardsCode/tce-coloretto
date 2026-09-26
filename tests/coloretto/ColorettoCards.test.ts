@@ -22,7 +22,7 @@ import {
   colorHex,
   cardLabel,
   ROW_CAPACITY,
-} from '../../example-games/coloretto/ColorettoCards';
+} from '../../src/ColorettoCards';
 
 describe('ColorettoCards', () => {
   describe('deck composition', () => {

@@ -1,0 +1,10 @@
+{
+  "$comment": "Single-game preset for tce-coloretto (F4 / CG-0MTRO72W5003ECAK). Gym is core-owned and always present; exactly one game is selected.",
+  "games": [
+    {
+      "id": "coloretto",
+      "path": ".",
+      "scenePath": "src/scenes/ColorettoScene.ts"
+    }
+  ]
+}

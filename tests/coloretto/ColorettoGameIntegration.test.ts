@@ -26,10 +26,10 @@ import {
   scoreRound,
   isGameOver,
   getWinnerIndex,
-} from '../../example-games/coloretto/ColorettoGame';
-import type { ColorettoSession, ColorettoAction } from '../../example-games/coloretto/ColorettoGame';
-import { ColorettoAiPlayer, RandomStrategy, HeuristicStrategy } from '../../example-games/coloretto/ColorettoAis';
-import { DECK_SIZE } from '../../example-games/coloretto/ColorettoCards';
+} from '../../src/ColorettoGame';
+import type { ColorettoSession, ColorettoAction } from '../../src/ColorettoGame';
+import { ColorettoAiPlayer, RandomStrategy, HeuristicStrategy } from '../../src/ColorettoAis';
+import { DECK_SIZE } from '../../src/ColorettoCards';
 
 /** Sum of all collection sizes across players. */
 function collectionTotal(session: ColorettoSession): number {

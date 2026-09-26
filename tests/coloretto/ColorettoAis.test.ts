@@ -16,7 +16,7 @@ import {
   ColorettoAiPlayer,
   marginalGain,
   netRowValue,
-} from '../../example-games/coloretto/ColorettoAis';
+} from '../../src/ColorettoAis';
 import {
   setupColorettoGame,
   legalActions,
@@ -24,9 +24,9 @@ import {
   getCurrentPlayerIndex,
   scoreRound,
   beginRoundScoring,
-} from '../../example-games/coloretto/ColorettoGame';
-import type { ColorettoSession } from '../../example-games/coloretto/ColorettoGame';
-import type { ChameleonColor, ColorettoCard } from '../../example-games/coloretto/ColorettoCards';
+} from '../../src/ColorettoGame';
+import type { ColorettoSession } from '../../src/ColorettoGame';
+import type { ChameleonColor, ColorettoCard } from '../../src/ColorettoCards';
 
 function makeRng(seed: number = 42) {
   let s = seed;

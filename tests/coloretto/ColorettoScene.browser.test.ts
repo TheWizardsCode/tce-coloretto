@@ -14,7 +14,7 @@
 import { afterEach, describe, expect, it } from 'vitest';
 import Phaser from 'phaser';
 import { waitForScene } from '@core-tests/helpers/waitForScene';
-import { createColorettoDeck } from '../../example-games/coloretto/ColorettoCards';
+import { createColorettoDeck } from '../../src/ColorettoCards';
 
 // Visual constants mirrored from ColorettoScene (deliberately kept in
 // sync: the originals are module-private there).
@@ -53,7 +53,7 @@ async function bootGame(): Promise<Phaser.Game> {
   container.id = 'game-container';
   document.body.appendChild(container);
 
-  const { createColorettoGame } = await import('../../example-games/coloretto/createColorettoGame');
+  const { createColorettoGame } = await import('../../src/createColorettoGame');
   const game = createColorettoGame({ type: Phaser.CANVAS });
   await waitForScene(game, 'ColorettoScene');
   return game;

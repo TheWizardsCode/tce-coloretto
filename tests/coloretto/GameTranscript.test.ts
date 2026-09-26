@@ -16,10 +16,10 @@ import {
   isRoundOver,
   isGameOver,
   getWinnerIndex,
-} from '../../example-games/coloretto/ColorettoGame';
-import { ColorettoTranscriptRecorder, snapshotCard } from '../../example-games/coloretto/GameTranscript';
+} from '../../src/ColorettoGame';
+import { ColorettoTranscriptRecorder, snapshotCard } from '../../src/GameTranscript';
 import { createSeededRng } from '@core-engine';
-import type { ColorettoSession } from '../../example-games/coloretto/ColorettoGame';
+import type { ColorettoSession } from '../../src/ColorettoGame';
 
 function makeRng(seed: number = 42) {
   let s = seed;

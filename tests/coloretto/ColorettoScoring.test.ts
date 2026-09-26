@@ -23,8 +23,8 @@ import {
   countBonusCards,
   optimalJokerAssignment,
   BONUS_POINTS,
-} from '../../example-games/coloretto/ColorettoScoring';
-import type { ChameleonColor, ColorettoCard } from '../../example-games/coloretto/ColorettoCards';
+} from '../../src/ColorettoScoring';
+import type { ChameleonColor, ColorettoCard } from '../../src/ColorettoCards';
 
 /** Build a chameleon card quickly. */
 function ch(color: ChameleonColor, count: 1 | 2, id: number): ColorettoCard {

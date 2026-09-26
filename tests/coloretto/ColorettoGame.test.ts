@@ -26,13 +26,13 @@ import {
   scoreRound,
   isGameOver,
   getWinnerIndex,
-} from '../../example-games/coloretto/ColorettoGame';
+} from '../../src/ColorettoGame';
 import type {
   ColorettoSession,
   ColorettoAction,
-} from '../../example-games/coloretto/ColorettoGame';
-import type { ChameleonColor, ColorettoCard } from '../../example-games/coloretto/ColorettoCards';
-import { BONUS_POINTS } from '../../example-games/coloretto/ColorettoScoring';
+} from '../../src/ColorettoGame';
+import type { ChameleonColor, ColorettoCard } from '../../src/ColorettoCards';
+import { BONUS_POINTS } from '../../src/ColorettoScoring';
 
 // Deterministic RNG for reproducible tests.
 function makeRng(seed: number = 42) {
